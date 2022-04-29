@@ -1,0 +1,371 @@
+/***********************************************/
+/* HTML tag styles                             */
+/***********************************************/ 
+
+body{
+	font-family: "Courier New", Courier, monospace;
+	color: #333333;
+	background-color: #000000;
+	line-height: 1.1;	
+	margin-left: 140px;
+	margin-right: 140px;
+	padding: 0px;
+}
+
+a:link, a:visited{
+	color: #0c857e;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #FF0090;
+	text-decoration: none;
+}
+/* overrides decoration from previous rule for hovered links */
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Courier New", Courier, monospace;
+	margin: 0px;
+	padding: 0px;
+	font-size: 14px;
+	font-style: normal;
+	color: #0c857e;
+}
+
+h1 {
+	color: #0c857e;
+	font-family: "Courier New", Courier, monospace;
+	font-style: normal;
+	font-size: 24px;
+	right: auto;
+}
+h2 {
+	color: #0c857e;
+	font-family: "Courier New", Courier, monospace;
+}
+h3 {
+	color: #0c857e;
+	font-family: "Courier New", Courier, monospace;
+}
+h4 {
+	color: #0c857e;
+	font-family: "Courier New", Courier, monospace;
+	font-size: 14px;
+}
+h5 {
+	color: #FF0090;
+	font-family: "Courier New", Courier, monospace;
+	font-size: 14px;
+	padding: 2px;
+}
+h6 {
+	color: #666666;
+	font-family: "Courier New", Courier, bold, monospace;
+	line-height: normal
+}
+ul{
+ list-style-type: square;
+}
+
+ul ul{
+ list-style-type: disc;
+}
+
+ul ul ul{
+ list-style-type: none;
+}
+
+label{
+ font: bold 100% "Courier New", Courier, monospace;
+ color: #334d55;
+}
+				
+
+/***********************************************/
+/* Layout Divs                                 */
+/***********************************************/
+
+#masthead{
+	margin: 0;
+	padding: 10px 0px;
+	width: 100%;
+}
+
+#title{
+float: right;
+text-align: left;
+width: 75%;
+margin: 0;
+padding: 0;
+}
+
+#navBar{
+	margin: 0 79% 0 0;
+	padding: 0px;
+	background-color: #000000;
+	color: #000000;
+}
+
+#content{
+  float:right;
+	width: 55%;
+	height: auto;
+	border: none;
+	margin: 0;
+	padding: 0 3% 0 0;
+}
+/*overflow: auto;*/
+
+#content_right{
+	float: right;
+	text-align: left;
+	width: 200px;
+	height: 500px;
+	border: none;
+	margin: 0;
+	}
+
+
+/***********************************************/
+/*Component Divs                               */
+/***********************************************/
+
+#siteName{
+	margin: 0px;
+	padding: 0px 0px 10px 10px;
+}
+
+
+/*************** #pageName styles **************/
+
+#pageName{
+	padding: 0px 0px 5px 0px;
+	text-align: left;
+}
+
+
+/************* #globalNav styles **************/
+
+#globalNav{
+color: #cccccc;
+padding: 0px 0px 0px 10px;
+white-space: normal ;
+}
+/* 'nowrap' prevents links from line-wrapping if there are too many to fit in one line
+   this will force a horizontal scrollbar if there isn't enough room for all links
+   remove rule or change value to 'normal' if you want the links to line-wrap */
+
+#globalNav img{
+ display: block;
+}
+
+#globalNav a {
+	font-size: 90%;
+	padding: 0px 4px 0px 0px; 
+}
+
+
+/************* #breadCrumb styles *************/
+
+#breadCrumb{
+	font-size: 80%;
+	padding: 5px 0px 5px 10px;
+}
+
+
+/************** .feature styles ***************/
+
+.feature{
+	padding: 0px 0px 0px 10px;
+	height: 150px;
+	font-size: 80%;
+	font-family: "Courier New", Courier, monospace;
+}
+
+.featurenews{
+	padding: 0px 0px 0px 10px;
+	height: auto;
+	font-size: 80%;
+	font-family: "Courier New", Courier, monospace;
+}
+.featuresmall{
+	padding: 0px 0px 0px 10px;
+	height: 75px;
+	line-height: normal;
+	font-size: 80%;
+	font-family: "Courier New", Courier, monospace;
+}
+
+p.differentSpacing {
+	/* less spacing */
+	margin-top: 0px;
+	margin-bottom: 4px;
+}
+
+.featuresmaller{
+	padding: 0px 0px 0px 10px;
+	height: 40px;
+	line-height: normal;
+	font-size: 80%;
+	font-family: "Courier New", Courier, monospace;
+}
+.featuremerch{
+	padding: 20px 0px 0px 10px;
+	height: auto;
+	font-size: 80%;
+	font-family: "Courier New", Courier, monospace;
+}
+
+.discography{
+	padding: 20px 0px 0px 10px;
+	height: auto;
+	width: 50%;
+	font-size: 80%;
+	font-family: "Courier New", Courier, monospace;
+}
+.feature h3{
+	padding: 20px 0px 3px 0px;
+	text-align: left;
+	font-family: "Courier New", Courier, monospace;
+}
+
+.feature img{
+	float: left;
+	padding: 0px 10px 0px 0px;
+	margin: 0 5px 5px 0;
+}
+/* adjust margins to change separation between the feature image and text flowing around it */
+
+
+/************** .story styles *****************/
+
+.story{
+	clear: both;
+	padding: 10px 0px 0px 10px;
+	font-size: 80%;
+}
+
+.story p{
+	padding: 0px 0px 10px 0px;
+}
+
+
+/************* #siteInfo styles ***************/
+
+#siteInfo{
+	clear: both;
+	border: 0px solid #cccccc;
+	font-size: 75%;
+	color: #cccccc;
+	padding: 10px 10px 10px 10px;
+	margin-top: 0px;
+}
+/* negative top margin pulls siteinfo up so its top border overlaps (and thus lines up with)
+	the bottom border of the navBar in cases where they "touch" */
+
+#siteInfo img{
+	padding: 4px 4px 4px 0px;
+	vertical-align: middle;
+}
+
+
+/************* #search styles ***************/
+
+#search{
+	padding: 5px 0px 5px 10px;
+	border-bottom: 1px solid #cccccc;
+	font-size: 90%;
+}
+
+#search form{
+ margin: 0px;
+ padding: 0px;
+}
+
+#search label{
+	display: block;
+	margin: 0px;
+	padding: 0px;
+}
+
+
+/*********** #navBar link styles ***********/
+
+#navBar ul a:link, #navBar ul a:visited {display: block;}
+#navBar ul {list-style: none; margin: 0; padding: 0;}
+
+/* hack to fix IE/Win's broken rendering of block-level anchors in lists */
+#navBar li {border-bottom: none;}
+
+/* fix for browsers that don't need the hack */
+html>body #navBar li {border-bottom: none;}
+
+
+/*********** #sectionLinks styles ***********/
+
+#sectionLinks{
+	position: relative;
+	margin: 0px;
+	padding: 0px;
+	font-size: 90%;
+}
+
+#sectionLinks h3{
+	padding: 10px 0px 2px 10px;
+}
+
+#sectionLinks a:link{
+	padding: 2px 0px 2px 10px;
+	width: 100%;
+  voice-family: "\"}\""; 
+  voice-family:inherit;
+	width: auto;
+}
+
+#sectionLinks a:visited{
+	padding: 2px 0px 2px 10px;
+}
+
+#sectionLinks a:hover{
+	background-color: #000000;
+	padding: 2px 0px 2px 10px;
+}
+
+
+/*********** .relatedLinks styles ***********/
+
+.relatedLinks{
+	margin: 0px;
+	padding: 0px 0px 10px 10px;
+	font-size: 90%;
+}
+
+.relatedLinks h3{
+	padding: 10px 0px 2px 0px;
+}
+
+
+/************** #advert styles **************/
+
+#advert{
+	padding: 10px 0px 0px 10px;
+	font-size: 80%;
+	border-top: 1px solid #cccccc;
+}
+
+#advert img{
+	display: block;
+}
+
+
+/************** #headlines styles **************/
+
+#headlines{
+	margin: 0px;
+	padding: 10px 0px 20px 10px;
+	font-size: 80%;
+}
+
+#headlines p{
+	padding: 5px 0px 5px 0px;
+}
